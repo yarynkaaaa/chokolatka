@@ -113,7 +113,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* padding-bottom: 36px; */
+    /* padding-bottom: 72px; */
     margin-bottom: 72px;
 }
 
@@ -192,6 +192,7 @@ button {
     width: 1200px;
     padding: 50px;
     background-color: #1e1823;
+    
 }
 
 .hidden {
@@ -214,6 +215,7 @@ button {
 }
 
 .benefits-item {
+    height: 244px;
     width: calc((100% - 140px) / 3);
     position: relative;
 }
@@ -254,4 +256,88 @@ button {
     font-size: 14px;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
+}
+/* ---------------INGREDIENTS--------------- */
+.ingredients {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.ingredients-container {
+
+}
+
+.ingredients-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ingredients-title {
+    max-width: 411px;
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+        margin-bottom: 28px;
+}
+.ingr-current{
+    color: #fd9222;
+}
+.ingredients-descrp {
+    max-width: 486px;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #111;
+}
+
+.ingredients-list {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.ingredients-item {
+    padding: 28px 32px 82px;
+    height: 270px;
+    border-radius: 15px;
+    border: 1px solid #fd9222;
+    background: #fff;
+    width: calc((100% - 57px) / 4);
+}
+
+.item-orange{
+    background-color: #fd9222;
+}
+
+.item-border>.ingr-card-subtitle{
+    color: #111;
+}
+.item-violet{
+border-color: transparent;
+background-color: #1e1823;
+}
+
+.ingredients-card {
+margin-bottom: 36px;
+    width: 206px;
+    height: 160px;
+}
+
+.ingr-card-subtitle {
+    font-weight: 600;
+        font-size: 14px;
+    
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #fff;
 }
